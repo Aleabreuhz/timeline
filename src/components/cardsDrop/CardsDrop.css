@@ -1,0 +1,66 @@
+/* .timeline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+} */
+.card-timeLine {
+  background-color: white;
+  border-radius: 12em;
+  text-align: center;
+  transform: translateY(-7em);
+  visibility: hidden;
+  transition: opacity 1s ease;
+}
+
+.card-content{
+    width: 10em;
+    height: 4em;
+}
+
+.card-timeLine.card-timeLine-visible {
+  visibility: visible;
+  z-index: 10000;
+  position: relative;
+}
+
+.card-name {
+  background-color: white;
+  width: 10em;
+  height: 40px;
+  transform: translate(45px, 23px);
+  border-radius: 10em;
+  z-index: 1;
+  position: relative;
+  text-align: center;
+}
+
+.card-name span {
+  margin: 10px;
+  font-size: small;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.card-img {
+  width: 100%;
+  height: auto;
+  z-index: 100;
+  position: relative;
+  transition: filter 0.5s ease; /* Transición suave para el efecto */
+  height: 9em;
+  width: 15em;
+  border-radius: 2em;
+}
+.card-img.blurred {
+  filter: blur(5px); /* Efecto de desenfoque */
+  /* Opcional: Amplía un poco la imagen para un mejor efecto */
+}
+
+.showMore .ant-btn{
+  font-size: 0;
+  line-height: 0;
+  height: 0;
+  padding:0;
+  border-radius:0;
+} 
+

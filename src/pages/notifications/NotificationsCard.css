@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   position: relative; /* Mantiene su flujo relativo */
-  transform: translateY(5em); 
+  transform: translateY(4em); 
 }
 
 .title{

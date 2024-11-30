@@ -1,8 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./CardsDrop.css";
-import { PlusOutlined } from "@ant-design/icons";
-import { Button } from "antd";
-function CardsDrop({ img, content, title }) {
+function CardsDrop({ img, content, title, link }) {
   const [visible, setVisible] = useState(false);
   const cardRef = useRef(null);
 
@@ -24,7 +22,7 @@ function CardsDrop({ img, content, title }) {
     };
   }, []);
   return (
-    <div className="timeLine" ref={cardRef}>
+    <>
       <div className="card-name">
         {" "}
         <span>{title}</span>
@@ -32,16 +30,20 @@ function CardsDrop({ img, content, title }) {
       <img
         src={img}
         alt="foto"
-        className={`card-img ${visible ? "blurred" :""}`}
+        className={`card-img ${visible ? "blurred" : ""}`}
         onClick={showCard}
       />
-      <div
+      <div ref={cardRef}
         className={`card-timeLine  ${visible ? "card-timeLine-visible" : ""}`}
       >
-        <p className="card-content">{content}</p>
-        <Button className="showMore">{<PlusOutlined style={{ color: 'black'}}/>}</Button>
+        <div className="card-content" >
+          {content}
+        </div>
+        <a href={`/timeline/${link}`}>
+          <img className="showMore" src="mas.svg" alt="mas"></img>
+        </a>
       </div>
-    </div>
+    </>
   );
 }
 export default CardsDrop;

@@ -8,14 +8,20 @@
   background-color: white;
   border-radius: 12em;
   text-align: center;
-  transform: translateY(-7em);
+  margin-top: -6em;
   visibility: hidden;
   transition: opacity 1s ease;
+  width: 65vw;
+  height: 12vh;
 }
 
-.card-content{
-    width: 10em;
-    height: 4em;
+.card-content {
+  margin-top: 1vh;
+  text-align: center;
+  height: 3em;
+  color: rgb(0, 0, 0);
+  font-size:16px ;
+  transform: translatey(10px);
 }
 
 .card-timeLine.card-timeLine-visible {
@@ -28,20 +34,23 @@
   background-color: white;
   width: 10em;
   height: 40px;
-  transform: translate(45px, 23px);
+  transform: translate(1px, 23px);
   border-radius: 10em;
   z-index: 1;
-  position: relative;
   text-align: center;
 }
 
 .card-name span {
   margin: 10px;
   font-size: small;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .card-img {
+  display:flex ;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   height: auto;
   z-index: 100;
@@ -56,11 +65,8 @@
   /* Opcional: Amplía un poco la imagen para un mejor efecto */
 }
 
-.showMore .ant-btn{
-  font-size: 0;
-  line-height: 0;
-  height: 0;
-  padding:0;
-  border-radius:0;
-} 
-
+.showMore {
+ width: 5vw;
+ height: 10vh;
+ margin-top: -15px;
+}

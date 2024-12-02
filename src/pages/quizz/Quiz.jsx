@@ -1,7 +1,7 @@
 import React from "react";
 import "./Quiz.css";
 import { Alert } from 'antd';
-import MenuBarr from "../../components/barMenu/MenuBarr";
+import MenuBarr from "../../components/barMenu/BarMenu";
 function Quiz() {
   return (
     <div className="mainPage">

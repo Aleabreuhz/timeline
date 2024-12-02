@@ -1,4 +1,4 @@
-img{
-  border-width: 20px;
-  border-color: black;
+.avatarImg img{
+  border-radius: 10em;
+  display: flex;
 }

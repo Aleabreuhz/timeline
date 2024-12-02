@@ -4,7 +4,7 @@ import SearchBar from "../../components/search/SearchBar.js";
 import "./Notifications.css";
 import ButtonSelect from "../../components/buttonSelect/ButtonSelect.js";
 import NotificationsCard from "./NotificationsCard.js"
-import MenuBarr from "../../components/barMenu/MenuBarr.js";
+import MenuBarr from "../../components/barMenu/BarMenu.js";
 function Notifications() {
   return (
       <div className="mainPage">

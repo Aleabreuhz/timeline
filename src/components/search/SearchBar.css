@@ -2,10 +2,10 @@
 
 .search_Bar {
   display: flex;
-  flex-direction: column;
+  flex-direction: row-reverse;
   align-items: center;
   margin-top: 20px;
-
+  justify-content: center;
 }
 
 /* Estilo para el componente de búsqueda */
@@ -22,7 +22,7 @@
   border-radius: 10px;
 }
 
-.anticon{
+.anticon {
   color: rgb(255, 255, 255);
 }
 
@@ -31,4 +31,3 @@
   border-radius: 20px;
   background-color: transparent;
 }
-

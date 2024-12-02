@@ -1,6 +1,6 @@
 import React from "react";
 import "./Timelines.css";
-import MenuBarr from "../../components/barMenu/MenuBarr";
+import MenuBarr from "../../components/barMenu/BarMenu";
 import SearchBar from "../../components/search/SearchBar";
 import CardsDrop from "../../components/cardsDrop/CardsDrop";
 import timelines from "../../models/timelinesList";

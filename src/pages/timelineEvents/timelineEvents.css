@@ -10,7 +10,7 @@ html {
   );
 }
 .events-details-content {
-  height: 80vh;
+  height: 82vh;
   gap: 2em;
   overflow: scroll;
   margin-bottom: 10px;
@@ -35,8 +35,9 @@ html {
 .events-details-preview img {
   height: 19vh;
   width: 60vw;
-  border-radius: 20em;
-  /* margin: 10px; */
+  border-radius: 50px;
+  object-fit: cover;
+  margin-top: 10px;
 }
 
 .containerEvent {
@@ -52,9 +53,21 @@ html {
   overflow: visible;
   padding: 10px;
   display: inline;
-  margin-left: 5px;
+  margin-left: 13px;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
 }
+
+.dateBar{
+  background-color: white;
+  color:transparent;
+  width: 3px;
+  height: 30em;
+  position: absolute;
+  margin-top: 70px;
+  position: absolute;
+  right: 25px;
+}
+
 
 .containerContent {
   margin-left: 5px;
@@ -64,19 +77,11 @@ html {
   padding: 20px;
   display: inline-block;
   border-radius: 5em;
-  text-align: left;
+  text-align: center;
   font-size: 12px;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
 
 }
 
-.dateBar{
-  background-color: white;
-  color:transparent;
-  width: 3px;
-  height: 30em;
-  margin-left: 23em;
-  position: absolute;
-  margin-top: 70px
-}
+
 

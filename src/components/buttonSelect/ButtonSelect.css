@@ -30,6 +30,8 @@
   user-select: none;
   touch-action: manipulation;
   color: rgb(255, 255, 255);
+  font-family: "League Spartan";
+
 }
 .button_quiz {
   padding-inline-start: 0px;
@@ -51,6 +53,8 @@
   user-select: none;
   touch-action: manipulation;
   color: rgb(255, 255, 255);
+  font-family: "League Spartan";
+
 }
 .button_timeline {
   padding-inline-start: 0px;
@@ -72,6 +76,8 @@
   user-select: none;
   touch-action: manipulation;
   color: rgb(255, 255, 255);
+  font-family: "League Spartan";
+
 }
 
 .button_quit{

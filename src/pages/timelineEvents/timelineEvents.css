@@ -23,7 +23,7 @@ html {
   text-align: center;
   margin-left: 10px;
   margin-bottom: 5px;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+  font-family: "League Spartan";
 }
 
 .eventPage {
@@ -54,7 +54,7 @@ html {
   padding: 10px;
   display: inline;
   margin-left: 13px;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+  font-family: "League Spartan";
 }
 
 .dateBar{
@@ -78,8 +78,8 @@ html {
   display: inline-block;
   border-radius: 5em;
   text-align: center;
-  font-size: 12px;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+  font-size: 16px;
+  font-family: "League Spartan";
 
 }
 

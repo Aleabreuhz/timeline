@@ -11,8 +11,8 @@
   margin-top: -6em;
   visibility: hidden;
   transition: opacity 1s ease;
-  width: 65vw;
-  height: 12vh;
+  width: 16em;
+  height: 8em;
 }
 
 .card-content {
@@ -22,6 +22,8 @@
   color: rgb(0, 0, 0);
   font-size:16px ;
   transform: translatey(10px);
+  font-family: "League Spartan";
+  margin: 12px;
 }
 
 .card-timeLine.card-timeLine-visible {
@@ -38,13 +40,13 @@
   border-radius: 10em;
   z-index: 1;
   text-align: center;
+  font-family: "League Spartan";
 }
 
 .card-name span {
   margin: 10px;
   font-size: small;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "League Spartan";
 }
 
 .card-img {
@@ -66,7 +68,7 @@
 }
 
 .showMore {
- width: 5vw;
+ width: 1em;
  height: 10vh;
- margin-top: -15px;
+ 
 }

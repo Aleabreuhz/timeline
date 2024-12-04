@@ -6,6 +6,7 @@
   align-items: center;
   margin-top: 20px;
   justify-content: center;
+  z-index: 1;
 }
 
 /* Estilo para el componente de búsqueda */

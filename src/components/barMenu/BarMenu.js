@@ -18,7 +18,9 @@ function MenuBarr() {
       <Link to="/quiz">
         <img src="/preguntas-mas-frecuentes.svg" alt="quiz" />
       </Link>
-      <img src="/lapiz.svg" alt="pencil" />
+      <Link to="/editCreate">
+        <img src="/lapiz.svg" alt="pencil" />
+      </Link>
     </div>
   );
 }

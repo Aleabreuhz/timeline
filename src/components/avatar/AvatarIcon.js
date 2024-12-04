@@ -47,6 +47,7 @@ function AvatarIcon() {
             padding: "20px",
             boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
             borderRadius: "8px",
+            zIndex: 1000
           }}
         >
           <Form

@@ -8,8 +8,8 @@ import timelines from "../../models/timelinesList";
 function Timelines() {
   return (
     <div className="mainPage">
-      <div className="contentPage"></div>
       <SearchBar />
+      <div className="contentPage"></div>
       <div className="timelines">
         {timelines.map(t => (
           <CardsDrop img={t.preview} title={t.title} content={t.content} link={t.link}/>

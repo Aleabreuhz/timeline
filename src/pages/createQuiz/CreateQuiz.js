@@ -1,11 +1,11 @@
-import React from 'react';
-import { Form, Input, Button } from 'antd';
-import './CreateQuiz.css'; 
+import React from "react";
+import { Form, Input, Button } from "antd";
+import "./CreateQuiz.css";
 import BarMenu from "../../components/barMenu/BarMenu";
 
 const QuestionForm = () => {
   const onFinish = (values) => {
-    console.log('Form values:', values);
+    console.log("Form values:", values);
   };
 
   return (
@@ -21,7 +21,7 @@ const QuestionForm = () => {
         <Form.Item
           name="question"
           label="Question"
-          rules={[{ required: true, message: 'Please input the question!' }]}
+          rules={[{ required: true, message: "Please input the question!" }]}
         >
           <Input placeholder="Enter the main question" />
         </Form.Item>
@@ -33,7 +33,9 @@ const QuestionForm = () => {
               key={index}
               name={`answer_${index}`}
               label={`Answer ${index}`}
-              rules={[{ required: true, message: `Please input answer ${index}!` }]}
+              rules={[
+                { required: true, message: `Please input answer ${index}!` },
+              ]}
             >
               <Input placeholder={`Enter answer ${index}`} />
             </Form.Item>

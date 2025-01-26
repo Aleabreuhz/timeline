@@ -28,19 +28,25 @@ const Info_Card = () => (
           textAlign: "center",
         }}
       >
-        <p>🎓 Challenge: Discover the post-World War II conflicts and solve the most difficult trivia questions.
-
-</p>
+        <p>
+          🎓 Challenge: Discover the post-World War II conflicts and solve the
+          most difficult trivia questions.
+        </p>
       </Card>
       <Card
-        title="Default size card"
-        extra={<a href="#">More</a>}
+        title={
+          <span className="title">
+            3. New Event: Sonic 3 
+          </span>
+        }
         style={{
           width: 300,
           textAlign: "center",
         }}
       >
-        <p>Card content</p>
+        <p>
+          🦔 Learn about the new movie of the most famous blue hedgehog
+        </p>
       </Card>
     </Space>
   </div>

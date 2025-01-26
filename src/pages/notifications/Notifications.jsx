@@ -1,5 +1,4 @@
 import React from "react";
-import Avatar from "antd/es/avatar/avatar.js";
 import SearchBar from "../../components/search/SearchBar.js";
 import "./Notifications.css";
 import ButtonSelect from "../../components/buttonSelect/ButtonSelect.js";
@@ -9,7 +8,6 @@ function Notifications() {
   return (
       <div className="mainPage">
         <div className="content_page">
-          <Avatar/>
           <SearchBar/>
           <ButtonSelect/>
           <NotificationsCard/>

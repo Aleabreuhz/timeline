@@ -10,7 +10,6 @@ function EventsTemplate({ currentTimeline }) {
   return (
     <div className="eventPage">
       <SearchBar />
-      <div className="dateBar">i</div>
       <div className="events-details-content">
         {events.map((e) =>
           e.timeline === currentTimeline ? (

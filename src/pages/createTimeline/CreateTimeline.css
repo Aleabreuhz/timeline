@@ -5,7 +5,7 @@ html {
   background: linear-gradient(
     180deg,
     rgba(67, 110, 203) 0%,
-    rgba(115, 45, 138, 0.9) 91%
+    rgba(166, 79, 196, 0.9) 91%
   );
 }
 
@@ -36,8 +36,11 @@ html {
   font-weight: 600;
   color: #333;
   font-family: "League Spartan";
+  
 }
-
+.ant-form-item .ant-form-item-label >label{
+  color: white;
+}
 .custom-form .ant-form-item {
   margin-bottom: 20px;
 }

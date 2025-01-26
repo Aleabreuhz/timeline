@@ -1,7 +1,7 @@
 let events = [
   {
     key: 1,
-    timelineName:"Lord Of The Rings",
+    timelineName:"El señor de los anillos",
     title: "La batalla de Isengard!",
     preview: "/timeLines-images/isengardBattle.jpg",
     content:"Empujados por Merry y Pippin, los Ents, seguidos por los Ucornos, invadieron el Anillo de Isengard desde el Bosque de Fangorn. Isengard era defendidos por Orcos y Hombres dirigidos por el Mago Blanco Saruman. Los atacantes rodearon Isengard, destruyeron sus puertas, derrumbaron sus muros y rompieron la presa que Saruman había construido, cuya agua inundó la Torre y los pozos que se utilizaban para crear sus máquinas de guerra.",
@@ -18,7 +18,7 @@ let events = [
   },
   {
     key: 3,
-    timelineName:"World War 2",
+    timelineName:"Segunda Guerra mundial",
     title: "Desembarco de Normandia",
     preview: "/timeLines-images/diaD.jpg",
     content: "La batalla de Normandía, llamada en clave operación Overlord, fue la operación militar efectuada por los Aliados durante la Segunda Guerra Mundial que culminó con la liberación de los territorios de Europa occidental ocupados por la Alemania nazi. La operación anfibia dio comienzo el 6 de junio de 1944, más conocido como el Día D, con el desembarco de Normandía; el conjunto de las operaciones navales recibió el nombre clave de operación Neptuno. Un asalto aerotransportado llevado a cabo por mil doscientas aeronaves precedió al desembarco anfibio, que involucró a 5000 barcos.",
@@ -35,18 +35,18 @@ let events = [
   },
   {
     key: 5,
-    timelineName:"Otoman Empire",
-    title: "",
-    preview: "/timeLines-images/talesme.png",
-    content: "",
+    timelineName:"Imperio Otomano",
+    title: "Batalla de Kosovo",
+    preview: "/timeLines-images/BaiazethIIII.jpg",
+    content: "con victoria frente al Principado de Serbia, que se convertirá en estado vasallo. La mayor parte de Serbia es conquistada. Murad I pierde la vida en esta guerra.1​2​ Ascenso al trono de Bayezid I.",
     link: "",
     timeline: '3',
   },
   {
     key: 6,
-    title: "",
-    preview: "/timeLines-images/talesme.png",
-    content: "",
+    title: "Batalla de Bafea ",
+    preview: "/timeLines-images/BattleOfBafea.jpg",
+    content: "	La primera guerra entre otomanos y bizantinos, con derrota bizantina en las afueras de Nicomedia. Después los otomanos capturaron una serie de pequeños fuertes, devastando los alrededores de Nicomedia, Nicea y Brusa; Nicomedia, sin embargo, no cayó en sus manos hasta 1337. Miles de refugiados marcharon al oeste hacia Constantinopla.",
     link: "",
     timeline: '3',
   },

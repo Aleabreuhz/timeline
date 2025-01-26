@@ -3,3 +3,6 @@
   display: flex;
   
 }
+.ant-form-item .ant-form-item-label >label {
+  color: black;
+}
